@@ -1,0 +1,22 @@
+{
+  "name": "proyek-bookshelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "author": "Ilham Faturrohman",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "nanoid": "^3.3.7"
+  }
+}
